@@ -1,0 +1,105 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ant.properties
+* build.xml
+* demo.iml
+* out/
+* out/production/
+* out/production/demo/
+* out/production/demo/com/
+* out/production/demo/com/advanpro/
+* out/production/demo/com/advanpro/bluetooth/
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE$1.class
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE$BluetoothConnect$1.class
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE$BluetoothConnect.class
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE$DeviceData.class
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE$DeviceInfo.class
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE$SmartDevicesScanCallBack.class
+* out/production/demo/com/advanpro/bluetooth/BluetoothBLE.class
+* out/production/demo/com/advanpro/smartbelt/
+* out/production/demo/com/advanpro/smartbelt/BeltDataNode.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_RawByteData.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_Setting.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TEStepCounterBool.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TEStepCounterStatus.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TMdlInitInfo.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TMdlProcRtInfo.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TSBreathStats.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TSBreathWaveData.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TSStepCounterOutput.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TSStepCounterParams.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_TSStepCounterPkt.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule$SmartBelt_Time.class
+* out/production/demo/com/advanpro/smartbelt/ProcessModule.class
+* out/production/demo/com/advanpro/smartbelt/SmartBeltBLE$1.class
+* out/production/demo/com/advanpro/smartbelt/SmartBeltBLE$2.class
+* out/production/demo/com/advanpro/smartbelt/SmartBeltBLE$3.class
+* out/production/demo/com/advanpro/smartbelt/SmartBeltBLE$ProcessCallback.class
+* out/production/demo/com/advanpro/smartbelt/SmartBeltBLE$StatModel.class
+* out/production/demo/com/advanpro/smartbelt/SmartBeltBLE.class
+* out/production/demo/com/example/
+* out/production/demo/com/example/demo/
+* out/production/demo/com/example/demo/BuildConfig.class
+* out/production/demo/com/example/demo/MyActivity$1.class
+* out/production/demo/com/example/demo/MyActivity$2.class
+* out/production/demo/com/example/demo/MyActivity$DeviceListAdapter$1.class
+* out/production/demo/com/example/demo/MyActivity$DeviceListAdapter.class
+* out/production/demo/com/example/demo/MyActivity.class
+* out/production/demo/com/example/demo/R$attr.class
+* out/production/demo/com/example/demo/R$drawable.class
+* out/production/demo/com/example/demo/R$id.class
+* out/production/demo/com/example/demo/R$layout.class
+* out/production/demo/com/example/demo/R$string.class
+* out/production/demo/com/example/demo/R.class
+* out/production/demo/demo.apk
+* out/production/demo/demo.unaligned.apk
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/armeabi-v7a/libSmartBelt_DataProcessModule.so => app/src/main/jniLibs/armeabi-v7a/libSmartBelt_DataProcessModule.so
+* libs/armeabi/libSmartBelt_DataProcessModule.so => app/src/main/jniLibs/armeabi/libSmartBelt_DataProcessModule.so
+* libs/mips/libSmartBelt_DataProcessModule.so => app/src/main/jniLibs/mips/libSmartBelt_DataProcessModule.so
+* libs/x86/libSmartBelt_DataProcessModule.so => app/src/main/jniLibs/x86/libSmartBelt_DataProcessModule.so
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
